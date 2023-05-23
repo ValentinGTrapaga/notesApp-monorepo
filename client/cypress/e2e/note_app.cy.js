@@ -1,6 +1,7 @@
 describe('Note app', function () {
+  //TODO: Test CRUD when logged in
   beforeEach(function () {
-    cy.visit('http://localhost:5173')
+    cy.visit('http://localhost:3001')
   })
 
   it('front page can be opened', function () {
